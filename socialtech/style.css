@@ -5,3 +5,34 @@ body {
 p {
   font-size: 15px;
 }
+body {
+  max-width: 1080px;
+  min-width: 960px;
+  margin: 0 auto;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#nav-pc {
+  font-size: 14px;
+  padding-top: 15px;
+}
+#nav-pc > a {
+  text-decoration: none;
+  /* gap: 20px;  */
+  margin-left: 20px; 
+}
+#nav-pc > a:link {
+  color: #0d0d0d;
+}
+#nav-pc > a:visited {
+  color: #0d0d0d;
+}
+#nav-pc > a:hover {
+  color: #0d0d0d;
+  text-decoration: underline;
+}
+#nav-pc > a:active {
+  color: #0d0d0d;
+}
