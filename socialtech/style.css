@@ -18,6 +18,7 @@ header {
   font-size: 14px;
   padding-top: 15px;
 }
+/* ②aタグの>はいりますか？なくてもaしかないので。 */
 #nav-pc > a {
   text-decoration: none;
   /* gap: 20px;  */
@@ -189,6 +190,7 @@ h3 {
   font-weight: bold;
   font-size: 24px;
   display: block;
+  /* ③なぜspanタグでblockにするのでしょうか？最初からpなどにしてはだめなのでしょうか？ */
 }
 /* 組織文化英語 */
 .culture-jp {
@@ -199,3 +201,4 @@ h3 {
 .culture-description {
   margin: 0;
 }
+/* ④tableのpに対して、margin0どんな効果があるのでしょうか？ */
