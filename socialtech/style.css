@@ -5,6 +5,9 @@ body {
 p {
   font-size: 15px;
 }
+/* PC用スタイル */
+@media screen and (min-width: 768px) {
+  
 body {
   max-width: 1080px;
   min-width: 960px;
@@ -393,4 +396,74 @@ footer {
 #copyright {
   color: #fff;
   float: right;
+}
+}
+/* スマホ用スタイル */
+@media screen and (max-width: 767px) {
+  body{
+    min-width: 375px;
+    margin: 0;
+  }
+  /* PC用ナビ非表示 */
+  #nav-pc {
+    display: none;
+  }
+  /* ハンバーガーメニュー */
+  #menu-sp {
+    float: right;
+    padding: 0;
+  }
+  /* スマホ用ナビゲーションの表示切替 */
+  /* 初期状態、レイアウトと非表示設定 */
+  #nav-sp {
+    background-color: #2710d5;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 100;
+  }
+   /* ×ボタン */
+  #close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+
+  /* ナビゲーションメニュー用ロゴ */
+  #logo-sp {
+    margin: 80px 0 30px 20px;
+  }
+  /* ナビのリンクの装飾 */
+  #nav-sp > a {
+    display: block;
+  }
+  #nav-sp > a:link {
+    color: #fff;
+  }
+  #nav-sp > a:visited {
+    color: #fff;
+  }
+  #nav-sp > a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  #nav-sp >.menu {
+    text-decoration: none;
+    display: block;
+    margin: 0 20px;
+    height: 44px;
+    font-size: 16px;
+    background-position: right top;
+  }
+  #sns {
+    position: absolute;
+    bottom: 20px;
+    left:20px
+  }
+  #sns > a {
+    margin-right: 30px;
+  }
 }
