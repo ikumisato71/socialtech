@@ -391,6 +391,10 @@ footer {
 #footer-link >a:active {
   color: #fff;
 }
+#sns-copyright {
+  display: flex;
+  justify-content: space-between;
+}
 #sns-footer {
   text-align: left;
   width: 100%;
@@ -400,7 +404,7 @@ footer {
 }
 #copyright {
   color: #fff;
-  float: right;
+  width: 100%;
 }
 }
 
