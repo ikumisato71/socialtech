@@ -462,15 +462,25 @@ footer {
 }
 #mission-5goals > div > div {
   margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
 }
-.fivegoals-image-right {
-  float: right;
+#mission-5goals > div > div > div {
+  width: 46%;
+}
+.fivegoals-image-row {
   margin: 20px;
 }
-.fivegoals-image-left {
-  float:left;
+.fivegoals-image-reverse {
+  flex-direction: row-reverse;
   margin: 20px;
 }
+.fivegoals-image {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .fivegoals-number {
   color: #2710d5;
   font-size: 48px;
@@ -840,7 +850,7 @@ footer {
     display: block;
     background-image: url("images/arrow.png");
     background-repeat: no-repeat;
-    background-position: raight top;
+    background-position: right top;
   }
   #footer-link > a:link {
     color: #fff;
