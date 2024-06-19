@@ -329,9 +329,9 @@ h3 {
 }
 /* テキストボックス */
 .contact-textbox {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   border-bottom-width: 1px;
   border-bottom-color: #707070;
   border-bottom-style: solid;
@@ -341,9 +341,9 @@ h3 {
 }
 /* お問い合わせ内容のテキストエリア */
 .contact-textarea {
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
   border-bottom-width: 1px;
   border-bottom-color: #707070;
   border-bottom-style: solid;
@@ -476,8 +476,7 @@ footer {
   margin: 20px;
 }
 .fivegoals-image {
-  width: 100%;
-  padding: 45px;
+  padding: 70px;
 }
 
 .fivegoals-number {
@@ -681,6 +680,9 @@ footer {
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+  #main-visual > div > p {
+    margin: 0;
   }
   /* 見出し */
   h2::after {
@@ -889,9 +891,9 @@ footer {
   }
   .contact-textbox {
     height:  56px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     background-color: #fafafa;
     border-bottom-color: #707070;
     border-bottom-width: 1px;
@@ -901,9 +903,9 @@ footer {
   }
   .contact-textarea {
     height: 150px;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
     background-color: #fafafa;
     width: 100%;
   }
@@ -1016,13 +1018,16 @@ footer {
   #s2dgs-image {
     width: 100%;
   }
-  .fivegoals-image-left {
+  .fivegoals-image-row {
     margin: 20px auto 20px auto;
     display: block;
   }
-  .fivegoals-image-left {
+  .fivegoals-image-reverse {
     margin: 20px auto 20px auto;
     display: block;
+  }
+  .fivegoals-image {
+    padding: 70px;
   }
   .fivegoals-number {
     color: #2710d5;
